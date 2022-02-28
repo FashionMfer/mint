@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       items.push(i)
     }
     document.querySelector(".box").innerHTML = template({
-      image: https://ipfs.io/ipfs/QmQTf9WnWCpTAfsrerpb5wa1Rs2dkdjRFYZpxPUZC1VyLc/thumbnail.gif,
+      image: placeholder.converted.image,
       title: `${name} (${symbol})`,
       items: items.map((item) => { return { count: item } }),
       max: invite.condition.converted.limit,
