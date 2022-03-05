@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       items: items.map((item) => { return { count: item } }),
       max: invite.condition.converted.limit,
       price: `${invite.condition.converted.eth} ETH`,
-      current: nextId,
+      current: nextId + 1000,
       supply: config.converted.supply,
       account: f0.account,
       key: key,
