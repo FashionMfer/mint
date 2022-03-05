@@ -22,6 +22,12 @@ body {
   margin-bottom: 10px;
   color: black;
 }
+.someclass:before {
+   content: "This text will be added at the beginning of the element"
+}
+.someclass:after {
+   content: "This text will be added at the end of the element"
+}
 .nice-select-dropdown {
   width: 100%;
 }
